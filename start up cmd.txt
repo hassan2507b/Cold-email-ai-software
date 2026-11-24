@@ -1,0 +1,8 @@
+cd c:\Users\Qurban\Desktop\coldmail\backend
+python -m uvicorn src.main:app --host 127.0.0.1 --port 8000 --reload
+
+
+
+
+cd c:\Users\Qurban\Desktop\coldmail\frontend
+npm run dev

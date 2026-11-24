@@ -1,0 +1,54 @@
+# Environment variables and secrets
+.env
+*.env
+.env.*
+backend/.env
+frontend/.env*
+!.env.example
+!backend/.env.example
+
+# SQLite Databases
+*.db
+*.sqlite
+*.sqlite3
+backend/coldmail.db
+test_coldmail.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+venv/
+env/
+.venv/
+
+# Node / Next.js
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+build/
+.pnp
+.pnp.js
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
